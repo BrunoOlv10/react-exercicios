@@ -1,0 +1,97 @@
+{
+  "projects": [
+    {
+      "id": "1800",
+      "name": "Bruno Oliveira",
+      "budget": "100",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 10,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "10",
+          "description": "faz isso aqui",
+          "id": "ed570071-7d22-4025-a12c-bea520a48522"
+        }
+      ]
+    },
+    {
+      "id": "f35e",
+      "name": "teste",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "5211",
+      "name": "projeto atualizado",
+      "budget": "8000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "1200",
+          "description": "faz isso aqui",
+          "id": "8dbdd6e1-766d-4c8e-a9f4-be4cb3470072"
+        },
+        {
+          "name": "Meu novo serviço3",
+          "cost": "800",
+          "description": "vai criar função de envio de e-mails",
+          "id": "b1d7d9a1-40f3-450d-8efd-9bfb1d9f3599"
+        }
+      ]
+    },
+    {
+      "id": "b94e",
+      "name": "teste4",
+      "budget": "100",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "1e65",
+      "name": "Meu novo projeto2",
+      "budget": "800",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
