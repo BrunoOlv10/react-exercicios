@@ -70,3 +70,13 @@ button:focus-visible {
 body {
   margin-bottom: 100px;
 }
+
+.claro {
+  background-color: #fff;
+  color: #000;
+}
+
+.escuro {
+  background-color: #000;
+  color: #fff;
+}

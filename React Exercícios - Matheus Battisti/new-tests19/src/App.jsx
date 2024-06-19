@@ -2,6 +2,11 @@ import './App.css'
 import UserForm from './components/UserForm'
 import ParentComponent from './components/ParentComponent'
 import PostsItems from './components/PostItems'
+import ThemeButton from './components/ThemeButton'
+import FormStatus from './components/FormStatus'
+import FormState from './components/FormState'
+
+import { ThemeProvider } from './contexts/ThemeContext'
 
 function App() {
 
@@ -15,6 +20,14 @@ function App() {
       <ParentComponent />
       <h1>3- use para carregamento de dados</h1>
       <PostsItems />
+      <h1>4- use para aplicar contextos</h1>
+      <ThemeProvider>
+        <ThemeButton />
+      </ThemeProvider>
+      <h1>5- useFormStatus para status de envio de um formulário</h1>
+      <FormStatus />
+      <h1>6- useFormState atualização baseada em resposta do usuário</h1>
+      <FormState />
     </>
   )
 }
