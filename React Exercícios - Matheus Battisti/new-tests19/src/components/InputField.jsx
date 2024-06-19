@@ -1,8 +1,6 @@
-const InputField = () => {
+const InputField = ({ placeholder, ref  }) => {
   return (
-    <div>
-      
-    </div>
+    <input type="text" placeholder={placeholder} ref={ref} />
   )
 }
 
