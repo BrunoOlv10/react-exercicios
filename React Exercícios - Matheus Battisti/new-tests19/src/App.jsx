@@ -5,6 +5,7 @@ import PostsItems from './components/PostItems'
 import ThemeButton from './components/ThemeButton'
 import FormStatus from './components/FormStatus'
 import FormState from './components/FormState'
+import AppMessage from './components/AppMessage'
 
 import { ThemeProvider } from './contexts/ThemeContext'
 
@@ -28,6 +29,8 @@ function App() {
       <FormStatus />
       <h1>6- useFormState atualização baseada em resposta do usuário</h1>
       <FormState />
+      <h1>7- Melhorar a resposta do usuário até que a atualização não chegue</h1>
+      <AppMessage />
     </>
   )
 }

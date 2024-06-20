@@ -1,4 +1,5 @@
-import { useFormState } from 'react-dom'
+// import { useFormState } from 'react-dom'
+import { useActionState } from 'react'
 
 const FormState = () => {
     const validarUsuario = (prevState, formData) => {
@@ -18,7 +19,8 @@ const FormState = () => {
         }
     }
 
-    const [mensagem, formAction] = useFormState(validarUsuario, null)
+    // const [mensagem, formAction] = useFormState(validarUsuario, null)
+    const [mensagem, formAction] = useActionState(validarUsuario, null)
 
   return (
     <form action={formAction}>
