@@ -28,6 +28,13 @@ function App() {
         ))}
       </ul>
 
+      <h2>Loop com Imagens</h2>
+        {db_imgs.map((product) => (
+          <div key={product.id}>
+            <img src={product.img} />
+            <p>R${product.price}</p>
+          </div>
+        ))}
     </>
   )
 }
